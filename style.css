@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  background: #f5f5f5;
+}
+body h1 {
+    text-align: center;
+    font-family: arial;
+    color: #e78113;
+    border-top: 9px double;
+    border-bottom: 9px double;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    border-color: #3f3131;
+
+}
+body ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  flex-basis: 80%;
+}
+body ul li {
+  flex-basis: 20%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  align-items: center;
+}
+body ul li span {
+  font-family: arial;
+  font-size: 14px;
+  color: #5a5a5a;
+  text-align: center;
+}
+body ul li img {
+  margin: 5px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+#authors{
+  border-bottom: 9px double;
+
+}
